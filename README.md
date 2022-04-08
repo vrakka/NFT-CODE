@@ -1,4 +1,4 @@
-# Solana NFT Options (BETA)
+# VRAKKA NFT
 This is a tool for creating and exercising options contracts for tokens and NFTs on the Solana blockchain. This program is currently running on devnet.
 See https://nftoptions.app, get the client on npm https://www.npmjs.com/package/solana-options
 
@@ -131,10 +131,6 @@ You can also issue contracts on newly minted NFTs by setting the instrument to `
 
 ## Motivation
 
-### What are options?
-The style of options in this package are almost identical to American Options traded on the stock market. Options are useful tools for limiting risk and can allow those will little capital more access to transactions that otherwise would have been difficult.
-
-Let look at an example. Suppose Alice has a house she bought for $420,000. Say she is interested in moving and would be happy to sell it at $690,000 in the next 3 months. Bob is looking to buy houses in area. He does some research and is confident that the housing prices will rise in the next 3 months. He sees Alice's house and based on his research, it will have a value of $1.5 million in the next 3 months. For Bob, getting the house at $690,000 is a good deal but he doesn't have the $690,000 lying around to make the purchase. Alice can write an options contract that gives Bob the right to buy the house at $690,000 over the next 3 months and sells it to him for a premium (let’s say $25,000). That way, if Bob still doesn't find the money in 3 months Alice can pocket the $25,000. Bob buys the contract for $25,000 and buys himself some time to find the $690,000. Two months later, it turns out Bob was right and the price skyrockets to $1.5 million. Bob's contract is now worth $810,000 because he can buy the house for $690,000 and sell it $1.5 million. For a small $25,000 investment Bob has made a lot of profit. If Bob still likes he can look for the $690,000 to purchase the home (exercise the contract) or he can sell the contract to someone else who has the money to buy the home. So essentially, options allow you to trade the rights to ownership of an asset at a defined price over a period.
 
 You can learn more about options [here]( https://www.investopedia.com/options-basics-tutorial-4583012) 
 
